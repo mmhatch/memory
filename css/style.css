@@ -13,7 +13,7 @@ p, h1,button{
     font-family: 'Times New Roman', Times, serif;
 }
 p, h1{
-    font-size: 20px;
+    font-size: 24px;
     color: #344966;
     background: #F0FFFF;
     border: #344966 double 10px;
@@ -33,7 +33,7 @@ button{
     background-color: #FFDBDB;
     padding: 10px;
     margin:10px;
-    font-size: 18px;
+    font-size: 24px;
     justify-items: center;
     display: inline;
 }
@@ -94,7 +94,7 @@ footer p{
 #turns, #score{
     color: #344966;
     border: none;
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px;
     margin:10px;
     background-color: none;
@@ -112,7 +112,7 @@ footer p{
     text-align: center;
 }
 #final{
-    font-size: 20px;  
+    font-size: 24px;  
 }
 #won{
     background: #F0FFFF;
@@ -145,22 +145,13 @@ footer p{
 .container{
     display: grid;
     gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: center; 
     margin-left: 20px;
     margin-right:20px;
 }
-@media only screen and (min-width: 1000px){
-    .container{
-        display: grid;
-        gap: 15px;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        justify-items: center; 
-        margin-left: 20px;
-        margin-right:20px;
-    }
-} 
-@media only screen and (min-width: 1200px){
+ 
+@media screen and (min-width: 1000px) {
     .container{
         display: grid;
         gap: 15px;
