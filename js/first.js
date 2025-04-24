@@ -15,7 +15,7 @@ document.getElementById("rules").addEventListener("click",function(){
     }
 })
 document.getElementById("won").style.display = "none";
-document.getElementById("score").innerHTML = "Matches: "+match+"/16"
+document.getElementById("score").innerHTML = "Matches: "+match+"/12"
 document.getElementById("turns").innerHTML = "Attempts: "+turns
 document.getElementById("color").addEventListener("click", function() {
     if(color===1){
@@ -60,12 +60,12 @@ if(color===1){
         match += 1;
         turns += 1;
         document.getElementById("turns").innerHTML = "Attempts: "+turns;
-        document.getElementById("score").innerHTML = "Matches: "+match+"/16";
+        document.getElementById("score").innerHTML = "Matches: "+match+"/12";
         document.getElementById(id1).classList.add("correct");
         document.getElementById(id2).classList.add("correct");
         document.getElementById("match").classList.remove("hidden");
         console.log(match)
-        if(match===16){
+        if(match===12){
             document.getElementById("final").innerHTML = "It took you "+turns+" turns to win";
             document.getElementById("won").style.display = "block";
         }
@@ -110,7 +110,7 @@ else if (n ===3){
     match = 0;
     turns = 0;
     document.getElementById("won").style.display = "none";
-    document.getElementById("score").innerHTML = "Matches: "+match+"/16"
+    document.getElementById("score").innerHTML = "Matches: "+match+"/12"
 document.getElementById("turns").innerHTML = "Attempts: "+turns
     document.querySelectorAll('.images').forEach((image)=>{
        image.style.display='none'; 
@@ -125,7 +125,7 @@ document.getElementById("turns").innerHTML = "Attempts: "+turns
     match = 0;
     turns = 0;
     document.getElementById("won").style.display = "none";
-    document.getElementById("score").innerHTML = "Matches: "+match+"/16"
+    document.getElementById("score").innerHTML = "Matches: "+match+"/12"
 document.getElementById("turns").innerHTML = "Attempts: "+turns
     document.querySelectorAll('.images').forEach((image)=>{
        image.style.display='none'; 
