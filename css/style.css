@@ -12,10 +12,7 @@ img{
     max-height: 250px;
     border-radius: 10px;
 }
-:focus{
-    border:#344966 5px solid;
-    
-}
+
 .checked{
     border:#344966 5px solid;
 }
